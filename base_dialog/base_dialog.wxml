@@ -1,0 +1,13 @@
+<!--components/dialog/dialog.wxml-->
+<view hidden='{{!show}}' class='zz-hw-modal'>
+
+  <view catchtap='_onBgTap' catchtouchmove='move' class='zz-hw-mask_gray'></view>
+  <view class='zz-hw-box'>
+    <view class='zz-hw-content'  catchtouchmove='move'>
+      <slot></slot>
+    </view>
+    <view hidden='{{!showClose}}' class='zz-hw-text_close' catchtouchmove='move'>
+      <text bindtap="_onCloseTap" class='close-text' catchtouchmove='move'>{{closeText}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+/* components/dialog/dialog.wxss */
+.zz-hw-modal {
+  display: block;
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.zz-hw-content {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.zz-hw-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+
+.zz-hw-text_close {
+  position: relative;
+  top: 20px;
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #fff;
+  letter-spacing: 0.03px;
+  text-align: center;
+}
+
+.close-text {
+  padding: 15rpx;
+}
+
+.zz-hw-mask_gray {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 97;
+  opacity: 0.7;
+  background: #181818;
+}
+
