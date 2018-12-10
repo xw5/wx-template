@@ -1,4 +1,4 @@
-// pages/placeholder-str/placeholder-str.js
+// pages/placeholder-str
 Page({
 
   /**

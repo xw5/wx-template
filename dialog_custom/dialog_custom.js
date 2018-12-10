@@ -1,4 +1,4 @@
-// components/placeholder-str/placeholder-str.js
+// components/placeholder-str
 Component({
   /**
    * 组件的属性列表
