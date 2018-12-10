@@ -1,4 +1,4 @@
 <!--components/placeholder-str-->
 <base-dialog id="baseDialog">
-  <text>components/placehodler/placehodler.wxml</text>
+  <text>components/placeholder-str</text>
 </base-dialog>
