@@ -1,4 +1,4 @@
 <!--components/placeholder-str-->
-<base-dialog id="baseDialog">
+<base-dialog id="baseDialog" showClose="{{true}}" bind:dialog_close="_onDialogClose">
   <text>components/placeholder-str</text>
 </base-dialog>
